@@ -7,66 +7,29 @@
 var userText = document.getElementById("user-Text");
 const choices = [1,2,3,,4,5,6,7,8,9];
 
+// var userWins = document.getElementById("user-Wins");
+
+// var userLosses = document.getElementById("user-Losses");
+
+// var userGL = document.getElementById("user-Gusses-Left");
+
 const psychicFunction = () =>{
     let computer = choices[Math.floor(Math.random() * choices.length)];
-    console.log("computer", computer);
-
-    document.onkeyup = fucntion(event); {
+    console.log, ("computer", computer);
+    
+    document.onkeyup = function(event) {
     if ((computer = event.key)) {
-        alert("Wise guess!")
-    }
-}    
+        document.write()
+    } 
     else {
-        guess = prompt("oopsies! Try again.");
+        guess = alert("oopsies! Try again.");
 
 }
         
     console.log(event);
     userText.innerHTML = event.key;
- };
+
+  
+};  
 };
-
 psychicFunction();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var answer = 3;
-// var guess = prompt("Tell me you guess");
-
-
-// for (let i = 0; i < 10; i++) {
-    
-// if (answer == guess){
-//     document.write("Wise guess!");
-//     break;
-// }    
-// else {
-//     guess = prompt("oopsies! Try again.");
-
-   
-// }
-
-// }
-
-// var userText = document.getElementById("user-Text");
-
-// document.onkeyup = function(event) {
-//     console.log(event)
-//     userText.innerHTML = event.key;
-// };
